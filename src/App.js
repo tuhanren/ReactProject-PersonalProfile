@@ -7,6 +7,10 @@ import Brands from "./components/Brands";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
 
 const App = () => {
   return (
@@ -17,7 +21,10 @@ const App = () => {
       <About />
       <Skills />
       <Portfolio />
-      <div styles={{ height: "2000px" }}></div>
+      <Services />
+      <Contact />
+      <Footer />
+      <BackToTop />
     </div>
   );
 };

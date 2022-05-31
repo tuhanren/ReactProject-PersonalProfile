@@ -95,6 +95,7 @@ const NavMobile = () => {
             );
           })
         }
+        <Socials />
       </motion.ul>
     </nav>
   );

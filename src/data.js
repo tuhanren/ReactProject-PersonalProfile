@@ -38,9 +38,9 @@ import SkillImg7 from "./assets/img/skills/git.png";
 import SkillImg8 from "./assets/img/skills/figma.png";
 
 // testimonial images
-import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
-import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
-import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
+// import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
+// import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
+// import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 
 // navigation
 export const navigation = [
@@ -59,10 +59,6 @@ export const navigation = [
   {
     name: "services",
     href: "services",
-  },
-  {
-    name: "testimonials",
-    href: "testimonials",
   },
   {
     name: "contact",
@@ -215,51 +211,24 @@ export const services = [
   {
     icon: <FiLayout />,
     name: "Web Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+    description: "I can do blablbablblablba.",
   },
   {
     icon: <FiSettings />,
     name: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "I can do blablbablblablba.I can do blablbablblablba.I can do blablbablblablba.I can do blablbablblablba.",
   },
   {
     icon: <FiPenTool />,
     name: "Branding",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+    description: "I can do blablbablblablba.I can do blablbablblablba.",
   },
   {
     icon: <FiTag />,
     name: "SEO",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
+      "I can do blablbablblablba.I can do blablbablblablba.I can do blablbablblablba.",
   },
 ];
 
@@ -268,13 +237,13 @@ export const contact = [
   {
     icon: <FiMail />,
     title: "Have a question?",
-    subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    subtitle: "I am here to answer.",
+    description: "Email me at tu.hanren@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Bucharest, Romania",
+    subtitle: "Toronto, Canada",
     description: "Serving clients worldwide",
   },
 ];
