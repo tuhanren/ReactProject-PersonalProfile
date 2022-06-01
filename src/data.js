@@ -4,8 +4,6 @@ import {
   FiGithub,
   FiLayout,
   FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
   FiLinkedin,
@@ -22,7 +20,7 @@ import {
 // projects images
 import Project1 from "./assets/img/projects/p1.webp";
 import Project2 from "./assets/img/projects/p2.webp";
-import Project5 from "./assets/img/projects/p5.webp";
+import Project3 from "./assets/img/projects/p3.webp";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -122,11 +120,11 @@ export const projectsData = [
     image: Project2,
     name: "Infinity Survey",
     category: "Web Development",
-    description: "MongoDB, Express, NodeJs, Bootstrap, Moqups",
+    description: "MongoDB, Express, NodeJs, Bootstrap, Moqups, Trello, Heroku",
   },
   {
-    id: "5",
-    image: Project5,
+    id: "3",
+    image: Project3,
     name: "TQ System",
     category: "web development",
     description: "ReactJs, MongoDB, Express, NodeJS, LucidChart, Firebase",
@@ -182,24 +180,14 @@ export const services = [
   {
     icon: <FiLayout />,
     name: "Web Design",
-    description: "I can do blablbablblablba.",
+    description:
+      "Simple content structure, clean design patterns, and intelligent interactions are all things I value.",
   },
   {
     icon: <FiSettings />,
     name: "Web Development",
     description:
-      "I can do blablbablblablba.I can do blablbablblablba.I can do blablbablblablba.I can do blablbablblablba.",
-  },
-  {
-    icon: <FiPenTool />,
-    name: "Branding",
-    description: "I can do blablbablblablba.I can do blablbablblablba.",
-  },
-  {
-    icon: <FiTag />,
-    name: "SEO",
-    description:
-      "I can do blablbablblablba.I can do blablbablblablba.I can do blablbablblablba.",
+      "I adore building things from the ground up and bringing them to life in the browser.",
   },
 ];
 

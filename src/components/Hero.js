@@ -20,7 +20,8 @@ const Hero = () => {
               I Build & Design <br /> Beautiful Things.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              ah blablablbalblablablblablblablablbalbla yiayiayiyiyaiayiyiayia.
+              Welcome to my home, this is my portfolio page with ReactJs and
+              Tailwind.
             </p>
             <a
               className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all"

@@ -9,11 +9,13 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
           <h2 className="section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block">
-            What I do for clients
+            What I can offer
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            The pandemic offers me the chance to step into this area which I
+            feel very greatful. Here are the things that I can do. I am always
+            looking for new challenges and I am always looking for new
+            opportunities.
           </p>
         </div>
         <div className="grid lg:grid-cols-4 gap-8">
