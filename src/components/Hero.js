@@ -1,7 +1,7 @@
 import React from "react";
 
 // import selfie image
-import SelfieImg from "../assets/img/banner-woman2.webp";
+import SelfieImg from "../assets/img/selfie.webp";
 
 const Hero = () => {
   return (
