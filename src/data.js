@@ -1,31 +1,28 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
+  FiFacebook,
 } from "react-icons/fi";
 
 // companies icons
-import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
-import UpworkBrandIcon from "./assets/img/brands/upwork.png";
-import FiverBrandIcon from "./assets/img/brands/fiverr.png";
-import BehanceBrandIcon from "./assets/img/brands/behance.png";
-import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
+// import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
+// import UpworkBrandIcon from "./assets/img/brands/upwork.png";
+// import FiverBrandIcon from "./assets/img/brands/fiverr.png";
+// import BehanceBrandIcon from "./assets/img/brands/behance.png";
+// import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
 import Project1 from "./assets/img/projects/p1.webp";
 import Project2 from "./assets/img/projects/p2.webp";
-import Project3 from "./assets/img/projects/p3.webp";
-import Project4 from "./assets/img/projects/p4.webp";
 import Project5 from "./assets/img/projects/p5.webp";
-import Project6 from "./assets/img/projects/p6.webp";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -36,6 +33,7 @@ import SkillImg5 from "./assets/img/skills/nextjs.png";
 import SkillImg6 from "./assets/img/skills/nodejs.png";
 import SkillImg7 from "./assets/img/skills/git.png";
 import SkillImg8 from "./assets/img/skills/figma.png";
+import SkillImg9 from "./assets/img/skills/mongodb.png";
 
 // testimonial images
 // import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
@@ -69,96 +67,69 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: "",
-  },
-  {
-    icon: <FiInstagram />,
-    href: "",
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/hanrentu",
   },
   {
     icon: <FiGithub />,
-    href: "",
+    href: "https://github.com/tuhanren",
   },
   {
-    icon: <FiDribbble />,
-    href: "",
+    icon: <FiFacebook />,
+    href: "https://www.facebook.com/hanren.tu",
+  },
+  {
+    icon: <FiInstagram />,
+    href: "https://www.instagram.com/henrytuu/",
   },
 ];
 
 // companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: "",
-  },
-  {
-    img: UpworkBrandIcon,
-    href: "",
-  },
-  {
-    img: FiverBrandIcon,
-    href: "",
-  },
-  {
-    img: BehanceBrandIcon,
-    href: "",
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: "",
-  },
-];
+// export const brands = [
+//   {
+//     img: FreelancerBrandIcon,
+//     href: "",
+//   },
+//   {
+//     img: UpworkBrandIcon,
+//     href: "",
+//   },
+//   {
+//     img: FiverBrandIcon,
+//     href: "",
+//   },
+//   {
+//     img: BehanceBrandIcon,
+//     href: "",
+//   },
+//   {
+//     img: DribbbleBrandIcon,
+//     href: "",
+//   },
+// ];
 
 // projects
 export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "project name 1",
+    name: "SAS2PYTHON",
     category: "UI/UX design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam.",
+    description: "Bootstrap, Moqups, Photoshop, MySQL",
   },
   {
     id: "2",
     image: Project2,
-    name: "project name 2",
-    category: "web development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam.",
-  },
-  {
-    id: "3",
-    image: Project3,
-    name: "project name 3",
-    category: "UI/UX design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam.",
-  },
-  {
-    id: "4",
-    image: Project4,
-    name: "project name 4",
-    category: "branding",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam.",
+    name: "Infinity Survey",
+    category: "Web Development",
+    description: "MongoDB, Express, NodeJs, Bootstrap, Moqups",
   },
   {
     id: "5",
     image: Project5,
-    name: "project name 5",
+    name: "TQ System",
     category: "web development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam.",
-  },
-  {
-    id: "6",
-    image: Project6,
-    name: "project name 6",
-    category: "web development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam.",
+    description: "ReactJs, MongoDB, Express, NodeJS, LucidChart, Firebase",
   },
 ];
 
@@ -172,9 +143,6 @@ export const projectsNav = [
   },
   {
     name: "web development",
-  },
-  {
-    name: "branding",
   },
 ];
 
@@ -203,6 +171,9 @@ export const skills = [
   },
   {
     image: SkillImg8,
+  },
+  {
+    image: SkillImg9,
   },
 ];
 

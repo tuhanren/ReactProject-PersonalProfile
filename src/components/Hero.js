@@ -2,6 +2,8 @@ import React from "react";
 
 // import selfie image
 import SelfieImg from "../assets/img/selfie.webp";
+// import resume
+import Resume from "../assets/resume.pdf";
 
 const Hero = () => {
   return (
@@ -15,14 +17,18 @@ const Hero = () => {
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-lg text-accent mb-[22px]">Hey, I'm Hanren 👋</p>
             <h1 className="text-4xl leading-3-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
-              I Build & Design <br /> Web Interfaces.
+              I Build & Design <br /> Beautiful Things.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
               ah blablablbalblablablblablblablablbalbla yiayiayiyiyaiayiyiayia.
             </p>
-            <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
+            <a
+              className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all"
+              href={Resume}
+              download
+            >
               Resume
-            </button>
+            </a>
           </div>
           {/* right side */}
           <div className="hidden lg:flex flex-1 jutify-end items-end h-full">

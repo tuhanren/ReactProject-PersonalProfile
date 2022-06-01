@@ -11,28 +11,24 @@ const About = () => {
           <img
             className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
             src={Image}
-            alt=""
+            alt="about"
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                 Hanren Tu
               </h2>
-              <p className="mb-4 text-accent">Web Developer</p>
+              <p className="mb-4 text-accent">Front-End Developer</p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                neque harum velit molestiae dignissimos distinctio dolorum nisi
-                labore culpa nihil. <br />
+                I am a Front-End Developer located in Toronto. I like to code
+                things from scrach, and enjoy bringing ideas to life. <br />
                 <br />
-                Qui doloremque quod sit accusantium unde totam inventore
-                cupiditate ratione esse maxime eum recusandae ducimus.
+                Well-organised person, problem solver, team player with high
+                attention to details. Interested in the entire frontend spectrum
+                and working on ambitious projects with positive people.
               </p>
             </div>
-            <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all">
-              Resume
-            </button>
           </div>
         </div>
       </div>
