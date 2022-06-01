@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-profile/static/css/main.b1fee29c.css",
+    "main.js": "/react-profile/static/js/main.35f536b7.js",
+    "static/media/selfie.webp": "/react-profile/static/media/selfie.5d3440803ad6844b2fce.webp",
+    "static/media/resume.pdf": "/react-profile/static/media/resume.f2b7ddd44352b99b0b8c.pdf",
+    "static/media/about.webp": "/react-profile/static/media/about.a4108607c5f3efdc890a.webp",
+    "static/media/p1.webp": "/react-profile/static/media/p1.23baf16169419c56a054.webp",
+    "static/media/p3.webp": "/react-profile/static/media/p3.e0224488c6d11f48b57e.webp",
+    "static/media/p2.webp": "/react-profile/static/media/p2.0e519443d737d8e1c94e.webp",
+    "static/media/services.svg": "/react-profile/static/media/services.0d43785bd1f41e4d0371.svg",
+    "static/media/portfolio.svg": "/react-profile/static/media/portfolio.bff8b39169bade93c32b.svg",
+    "static/media/contact.svg": "/react-profile/static/media/contact.acdd342ba1db0f98c7cd.svg",
+    "static/media/about.svg": "/react-profile/static/media/about.192e39ff229e6eb06083.svg",
+    "index.html": "/react-profile/index.html",
+    "main.b1fee29c.css.map": "/react-profile/static/css/main.b1fee29c.css.map",
+    "main.35f536b7.js.map": "/react-profile/static/js/main.35f536b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1fee29c.css",
+    "static/js/main.35f536b7.js"
+  ]
+}
