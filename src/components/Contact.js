@@ -41,17 +41,40 @@ const Contact = () => {
             })}
           </div>
           {/* form */}
-          <form className="space-y-8 w-full max-w-[780px]">
+          <form
+            className="space-y-8 w-full max-w-[780px]"
+            action="https://formsubmit.co/tu.hanren@gmail.com"
+            method="POST"
+          >
             <div className="flex gap-8">
-              <input className="input" type="text" placeholder="Your name" />
-              <input className="input" type="email" placeholder="Your email" />
+              <input
+                className="input"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+              <input
+                className="input"
+                type="email"
+                placeholder="Your email"
+                required
+              />
             </div>
-            <input className="input" type="text" placeholder="Subject" />
+            <input
+              className="input"
+              type="text"
+              placeholder="Subject"
+              required
+            />
             <textarea
               className="textarea"
               placeholder="Your message"
+              required
             ></textarea>
-            <button className="btn btn-lg bg-accent hover:bg-secondary-hover">
+            <button
+              type="submit"
+              className="btn btn-lg bg-accent hover:bg-secondary-hover"
+            >
               Send message
             </button>
           </form>
