@@ -121,6 +121,8 @@ export const projectsData = [
     name: "Infinity Survey",
     category: "Web Development",
     description: "MongoDB, Express, NodeJs, Bootstrap, Moqups, Trello, Heroku",
+    repo: "https://github.com/tuhanren/COMP229-F2021-Group8.git",
+    link: "https://infinitysurvey.herokuapp.com/",
   },
   {
     id: "3",
@@ -128,6 +130,8 @@ export const projectsData = [
     name: "TQ System",
     category: "web development",
     description: "ReactJs, MongoDB, Express, NodeJS, LucidChart, Firebase",
+    repo: "https://github.com/team5comp231001/comp231-001-team-5-TQ-system.git",
+    link: "https://tq-system.web.app/",
   },
 ];
 
