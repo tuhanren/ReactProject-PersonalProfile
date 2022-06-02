@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/react-profile/static/css/main.0d05d1bf.css",
-    "main.js": "/react-profile/static/js/main.1f5e0bd5.js",
+    "main.js": "/react-profile/static/js/main.932946f3.js",
     "static/media/resume.pdf": "/react-profile/static/media/resume.f2b7ddd44352b99b0b8c.pdf",
     "static/media/about.webp": "/react-profile/static/media/about.a4108607c5f3efdc890a.webp",
     "static/media/p1.webp": "/react-profile/static/media/p1.23baf16169419c56a054.webp",
     "static/media/p3.webp": "/react-profile/static/media/p3.e0224488c6d11f48b57e.webp",
+    "static/media/p4.webp": "/react-profile/static/media/p4.20e3102a6d3bb787bb5c.webp",
     "static/media/p2.webp": "/react-profile/static/media/p2.0e519443d737d8e1c94e.webp",
     "static/media/services.svg": "/react-profile/static/media/services.0d43785bd1f41e4d0371.svg",
     "static/media/portfolio.svg": "/react-profile/static/media/portfolio.bff8b39169bade93c32b.svg",
@@ -13,10 +14,10 @@
     "static/media/about.svg": "/react-profile/static/media/about.192e39ff229e6eb06083.svg",
     "index.html": "/react-profile/index.html",
     "main.0d05d1bf.css.map": "/react-profile/static/css/main.0d05d1bf.css.map",
-    "main.1f5e0bd5.js.map": "/react-profile/static/js/main.1f5e0bd5.js.map"
+    "main.932946f3.js.map": "/react-profile/static/js/main.932946f3.js.map"
   },
   "entrypoints": [
     "static/css/main.0d05d1bf.css",
-    "static/js/main.1f5e0bd5.js"
+    "static/js/main.932946f3.js"
   ]
 }
