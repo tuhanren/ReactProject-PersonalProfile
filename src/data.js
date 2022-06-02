@@ -21,6 +21,7 @@ import {
 import Project1 from "./assets/img/projects/p1.webp";
 import Project2 from "./assets/img/projects/p2.webp";
 import Project3 from "./assets/img/projects/p3.webp";
+import Project4 from "./assets/img/projects/p4.webp";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -132,6 +133,15 @@ export const projectsData = [
     description: "ReactJs, MongoDB, Express, NodeJS, LucidChart, Firebase",
     repo: "https://github.com/team5comp231001/comp231-001-team-5-TQ-system.git",
     link: "https://tq-system.web.app/",
+  },
+  {
+    id: "4",
+    image: Project4,
+    name: "Expense Calculator",
+    category: "web development",
+    description: "ReactJs, NodeJS",
+    repo: "https://github.com/tuhanren/react-expense-calculator.git",
+    link: "https://tuhanren.github.io/react-expense-calculator/",
   },
 ];
 
