@@ -1,7 +1,7 @@
 import React from "react";
 
 // import selfie image
-import SelfieImg from "../assets/img/selfie.webp";
+//import SelfieImg from "../assets/img/hero7.gif";
 // import resume
 import Resume from "../assets/resume.pdf";
 
@@ -32,8 +32,13 @@ const Hero = () => {
             </a>
           </div>
           {/* right side */}
-          <div className="hidden lg:flex flex-1 jutify-end items-end h-full">
-            <img src={SelfieImg} alt="selfie"></img>
+          <div className="hidden lg:flex flex-1 jutify-end items-end h-full mb-60">
+            <iframe
+              src="https://embed.lottiefiles.com/animation/77631"
+              title="hero"
+              width="500"
+              height="500"
+            ></iframe>
           </div>
         </div>
       </div>
