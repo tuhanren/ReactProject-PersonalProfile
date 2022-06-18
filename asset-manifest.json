@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-profile/static/css/main.0d05d1bf.css",
-    "main.js": "/react-profile/static/js/main.b2fea931.js",
-    "static/media/resume.pdf": "/react-profile/static/media/resume.f2b7ddd44352b99b0b8c.pdf",
+    "main.js": "/react-profile/static/js/main.0479d367.js",
+    "static/media/resume.pdf": "/react-profile/static/media/resume.bb89ef3a8709a2dea23a.pdf",
     "static/media/p5.webp": "/react-profile/static/media/p5.c141733b87755689f57b.webp",
     "static/media/about.webp": "/react-profile/static/media/about.a4108607c5f3efdc890a.webp",
     "static/media/p1.webp": "/react-profile/static/media/p1.23baf16169419c56a054.webp",
@@ -15,10 +15,10 @@
     "static/media/about.svg": "/react-profile/static/media/about.192e39ff229e6eb06083.svg",
     "index.html": "/react-profile/index.html",
     "main.0d05d1bf.css.map": "/react-profile/static/css/main.0d05d1bf.css.map",
-    "main.b2fea931.js.map": "/react-profile/static/js/main.b2fea931.js.map"
+    "main.0479d367.js.map": "/react-profile/static/js/main.0479d367.js.map"
   },
   "entrypoints": [
     "static/css/main.0d05d1bf.css",
-    "static/js/main.b2fea931.js"
+    "static/js/main.0479d367.js"
   ]
 }
